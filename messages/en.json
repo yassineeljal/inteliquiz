@@ -1,0 +1,159 @@
+{
+  "HomePage": {
+    "signIn": "Sign In",
+    "getStarted": "Get Started",
+    "poweredBy": "Powered by Gemini 2.0 AI",
+    "heroTitle": "Master Any Subject <br /> in Minutes",
+    "heroSubtitle": "Upload your course PDFs and let our AI generate smart flashcards, summaries, and mind maps instantly. Study efficiently with spaced repetition and gamification.",
+    "startLearning": "Start Learning Now",
+    "howItWorks": "How it works",
+    "stats": {
+      "activeLearners": "Active Learners",
+      "cardsGenerated": "Cards Generated",
+      "successRate": "Success Rate",
+      "timeSaved": "Time Saved"
+    },
+    "featuresTitle": "Everything you need to excel",
+    "features": {
+      "pdfToFlashcards": {
+        "title": "Instant PDF to Flashcards",
+        "description": "Drag & drop your course materials. Our AI analyzes the content, extracts key concepts, and generates comprehensive flashcards, summaries, and mind maps in seconds.",
+        "generating": "Generating Knowledge..."
+      },
+      "spacedRepetition": {
+        "title": "Spaced Repetition",
+        "description": "Smart algorithm that schedules reviews at the perfect time to maximize retention."
+      },
+      "gamification": {
+        "title": "Gamified Learning",
+        "description": "Earn XP, level up, and maintain streaks. Learning becomes an addictive game."
+      },
+      "voiceMode": {
+        "title": "Voice Examiner",
+        "description": "Practice oral exams with our AI. Speak your answers and get instant feedback."
+      },
+      "mindMaps": {
+        "title": "Visual Mind Maps",
+        "description": "Automatically generate concept maps to visualize connections between topics."
+      }
+    }
+  },
+  "Dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back, ready to learn?",
+    "stats": {
+      "dailyStreak": "Daily Streak",
+      "days": "days",
+      "currentLevel": "Current Level",
+      "lvl": "Lvl",
+      "xpProgress": "XP Progress",
+      "xpToNextLevel": "{xp} XP to Level {level}"
+    },
+    "quotes": {
+      "q1": "The beautiful thing about learning is that no one can take it away from you.",
+      "q2": "Education is the passport to the future.",
+      "q3": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+      "q4": "The expert in anything was once a beginner."
+    },
+    "dailyInspiration": "Daily Inspiration",
+    "proTip": "Pro Tip: Use Voice Mode for oral practice",
+    "myLibrary": "My Library",
+    "noDecks": {
+      "title": "No decks created yet",
+      "description": "Create your first deck manually or let our AI generate one for you from your course materials."
+    },
+    "studyDeck": "Study Deck",
+    "due": "due"
+  },
+  "DeckDetails": {
+    "backToDashboard": "Back to Dashboard",
+    "cards": "cards",
+    "aiSummary": "AI Summary",
+    "startStudy": "Start Study",
+    "courseSummary": "Course Summary",
+    "flashcards": "Flashcards",
+    "mindMap": "Mind Map",
+    "noCards": "No cards yet",
+    "front": "Front",
+    "back": "Back",
+    "noMindMap": "No mind map data available for this deck."
+  },
+  "AIDeckGenerator": {
+    "analyzing": "Analyzing PDF...",
+    "crafting": "Gemini is crafting your cards",
+    "generate": "Generate with AI",
+    "upload": "Upload PDF",
+    "loading": "Loading...",
+    "error": "Failed to generate deck. Please try again.",
+    "errorPrefix": "ERROR!"
+  },
+  "CreateDeckDialog": {
+    "triggerTitle": "Create New Deck",
+    "title": "Create Deck",
+    "description": "Give your new flashcard deck a name and description.",
+    "labelTitle": "Title",
+    "placeholderTitle": "e.g., History 101",
+    "labelDescription": "Description",
+    "placeholderDescription": "Optional description...",
+    "submit": "Create Deck",
+    "submitting": "Creating..."
+  },
+  "CreateCardDialog": {
+    "trigger": "Add Card",
+    "title": "Add New Card",
+    "description": "Create a new flashcard for this deck.",
+    "labelFront": "Front (Question)",
+    "placeholderFront": "What is the capital of France?",
+    "labelBack": "Back (Answer)",
+    "placeholderBack": "Paris",
+    "submit": "Add Card",
+    "submitting": "Adding..."
+  },
+  "EditCardDialog": {
+    "title": "Edit Card",
+    "description": "Make changes to your flashcard.",
+    "labelFront": "Front (Question)",
+    "labelBack": "Back (Answer)",
+    "submit": "Save Changes",
+    "submitting": "Saving...",
+    "success": "Card updated",
+    "error": "Failed to update card"
+  },
+  "DeleteCardButton": {
+    "success": "Card deleted",
+    "error": "Failed to delete card"
+  },
+  "DeleteDeckButton": {
+    "success": "Deck deleted",
+    "error": "Failed to delete deck",
+    "confirmTitle": "Are you sure?",
+    "confirmDescription": "This action cannot be undone. This will permanently delete your deck and all its cards."
+  },
+  "Flashcard": {
+    "clickToFlip": "(Click to flip)",
+    "hard": "Hard",
+    "good": "Good",
+    "easy": "Easy"
+  },
+  "StudySession": {
+    "voiceMode": "Voice Mode",
+    "sessionComplete": "Session Complete!",
+    "greatJob": "Great job! You've reviewed all cards.",
+    "returnToDeck": "Return to Deck",
+    "restartSession": "Restart Session",
+    "progress": "Progress"
+  },
+  "VoiceExaminer": {
+    "listening": "Listening...",
+    "tapToSpeak": "Tap to speak",
+    "processing": "Processing...",
+    "correct": "Correct!",
+    "incorrect": "Incorrect",
+    "errorMic": "Microphone error. Please check permissions.",
+    "errorSupport": "Speech recognition is not supported in this browser.",
+    "errorValidate": "Failed to validate answer."
+  },
+  "MindMap": {
+    "noData": "No mind map data available for this deck."
+  }
+}

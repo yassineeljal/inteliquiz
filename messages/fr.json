@@ -1,0 +1,159 @@
+{
+  "HomePage": {
+    "signIn": "Se connecter",
+    "getStarted": "Commencer",
+    "poweredBy": "Propulsé par Gemini 2.0 AI",
+    "heroTitle": "Maîtrisez n'importe quel sujet <br /> en quelques minutes",
+    "heroSubtitle": "Téléchargez vos cours en PDF et laissez notre IA générer instantanément des flashcards intelligentes, des résumés et des cartes mentales. Étudiez efficacement avec la répétition espacée et la gamification.",
+    "startLearning": "Commencer à apprendre",
+    "howItWorks": "Comment ça marche",
+    "stats": {
+      "activeLearners": "Apprenants actifs",
+      "cardsGenerated": "Cartes générées",
+      "successRate": "Taux de réussite",
+      "timeSaved": "Temps gagné"
+    },
+    "featuresTitle": "Tout ce dont vous avez besoin pour exceller",
+    "features": {
+      "pdfToFlashcards": {
+        "title": "PDF vers Flashcards instantané",
+        "description": "Glissez-déposez vos supports de cours. Notre IA analyse le contenu, extrait les concepts clés et génère des flashcards complètes, des résumés et des cartes mentales en quelques secondes.",
+        "generating": "Génération de connaissances..."
+      },
+      "spacedRepetition": {
+        "title": "Répétition espacée",
+        "description": "Algorithme intelligent qui planifie les révisions au moment idéal pour maximiser la rétention."
+      },
+      "gamification": {
+        "title": "Apprentissage ludique",
+        "description": "Gagnez de l'XP, montez de niveau et maintenez vos séries. L'apprentissage devient un jeu addictif."
+      },
+      "voiceMode": {
+        "title": "Examinateur Vocal",
+        "description": "Entraînez-vous aux examens oraux avec notre IA. Énoncez vos réponses et obtenez un retour instantané."
+      },
+      "mindMaps": {
+        "title": "Cartes Mentales Visuelles",
+        "description": "Générez automatiquement des cartes conceptuelles pour visualiser les liens entre les sujets."
+      }
+    }
+  },
+  "Dashboard": {
+    "title": "Tableau de bord",
+    "welcome": "Bon retour, prêt à apprendre ?",
+    "stats": {
+      "dailyStreak": "Série quotidienne",
+      "days": "jours",
+      "currentLevel": "Niveau actuel",
+      "lvl": "Niv",
+      "xpProgress": "Progression XP",
+      "xpToNextLevel": "{xp} XP vers le niveau {level}"
+    },
+    "quotes": {
+      "q1": "La belle chose à propos de l'apprentissage est que personne ne peut vous l'enlever.",
+      "q2": "L'éducation est le passeport pour l'avenir.",
+      "q3": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre pour toujours.",
+      "q4": "L'expert en tout a été un jour un débutant."
+    },
+    "dailyInspiration": "Inspiration quotidienne",
+    "proTip": "Astuce Pro : Utilisez le mode vocal pour l'entraînement oral",
+    "myLibrary": "Ma Bibliothèque",
+    "noDecks": {
+      "title": "Aucun paquet créé pour le moment",
+      "description": "Créez votre premier paquet manuellement ou laissez notre IA en générer un pour vous à partir de vos cours."
+    },
+    "studyDeck": "Étudier",
+    "due": "à revoir"
+  },
+  "DeckDetails": {
+    "backToDashboard": "Retour au tableau de bord",
+    "cards": "cartes",
+    "aiSummary": "Résumé IA",
+    "startStudy": "Commencer l'étude",
+    "courseSummary": "Résumé du cours",
+    "flashcards": "Flashcards",
+    "mindMap": "Carte Mentale",
+    "noCards": "Pas encore de cartes",
+    "front": "Recto",
+    "back": "Verso",
+    "noMindMap": "Aucune donnée de carte mentale disponible pour ce paquet."
+  },
+  "AIDeckGenerator": {
+    "analyzing": "Analyse du PDF...",
+    "crafting": "Gemini crée vos cartes",
+    "generate": "Générer avec l'IA",
+    "upload": "Télécharger PDF",
+    "loading": "Chargement...",
+    "error": "Échec de la génération du paquet. Veuillez réessayer.",
+    "errorPrefix": "ERREUR !"
+  },
+  "CreateDeckDialog": {
+    "triggerTitle": "Créer un nouveau paquet",
+    "title": "Créer un paquet",
+    "description": "Donnez un nom et une description à votre nouveau paquet de flashcards.",
+    "labelTitle": "Titre",
+    "placeholderTitle": "ex: Histoire 101",
+    "labelDescription": "Description",
+    "placeholderDescription": "Description optionnelle...",
+    "submit": "Créer le paquet",
+    "submitting": "Création..."
+  },
+  "CreateCardDialog": {
+    "trigger": "Ajouter une carte",
+    "title": "Ajouter une nouvelle carte",
+    "description": "Créez une nouvelle flashcard pour ce paquet.",
+    "labelFront": "Recto (Question)",
+    "placeholderFront": "Quelle est la capitale de la France ?",
+    "labelBack": "Verso (Réponse)",
+    "placeholderBack": "Paris",
+    "submit": "Ajouter la carte",
+    "submitting": "Ajout..."
+  },
+  "EditCardDialog": {
+    "title": "Modifier la carte",
+    "description": "Apportez des modifications à votre flashcard.",
+    "labelFront": "Recto (Question)",
+    "labelBack": "Verso (Réponse)",
+    "submit": "Enregistrer les modifications",
+    "submitting": "Enregistrement...",
+    "success": "Carte mise à jour",
+    "error": "Échec de la mise à jour de la carte"
+  },
+  "DeleteCardButton": {
+    "success": "Carte supprimée",
+    "error": "Échec de la suppression de la carte"
+  },
+  "DeleteDeckButton": {
+    "success": "Paquet supprimé",
+    "error": "Échec de la suppression du paquet",
+    "confirmTitle": "Êtes-vous sûr ?",
+    "confirmDescription": "Cette action est irréversible. Cela supprimera définitivement votre paquet et toutes ses cartes."
+  },
+  "Flashcard": {
+    "clickToFlip": "(Cliquer pour retourner)",
+    "hard": "Difficile",
+    "good": "Bien",
+    "easy": "Facile"
+  },
+  "StudySession": {
+    "voiceMode": "Mode Vocal",
+    "sessionComplete": "Session terminée !",
+    "greatJob": "Beau travail ! Vous avez révisé toutes les cartes.",
+    "returnToDeck": "Retour au paquet",
+    "restartSession": "Recommencer la session",
+    "progress": "Progression"
+  },
+  "VoiceExaminer": {
+    "listening": "Écoute...",
+    "tapToSpeak": "Appuyez pour parler",
+    "processing": "Traitement...",
+    "correct": "Correct !",
+    "incorrect": "Incorrect",
+    "errorMic": "Erreur de microphone. Veuillez vérifier les permissions.",
+    "errorSupport": "La reconnaissance vocale n'est pas supportée dans ce navigateur.",
+    "errorValidate": "Échec de la validation de la réponse."
+  },
+  "MindMap": {
+    "noData": "Aucune donnée de carte mentale disponible pour ce paquet."
+  }
+}
