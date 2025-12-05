@@ -3,7 +3,7 @@ import { getDeck } from "@/actions/decks";
 import { StudySession } from "@/components/StudySession";
 import { notFound } from "next/navigation";
 
-export default async function StudyPage({ params }: { params: { id: string } }) {
+export default async function StudyPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
 
   try {
